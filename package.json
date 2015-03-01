@@ -1,0 +1,29 @@
+{
+  "name": "PrismaNet-angular",
+  "version": "0.0.1",
+  "description": "Desarrollo de template para mail de PrismanNet",
+  "license": "MIT",
+  "author": {
+    "name": "Oscar Caceres",
+    "email": "caceres.oscar7@gmail.com",
+    "url": "http://prisma-net.com.ar"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oscarcp777/PrismaNet-angular"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "connect-history-api-fallback": "0.0.5",
+    "gulp": "^3.8.11",
+    "gulp-connect": "^2.2.0",
+    "gulp-if": "^1.2.5",
+    "gulp-jshint": "^1.9.2",
+    "gulp-less": "^3.0.1",
+    "gulp-minify-css": "^0.5.1",
+    "gulp-uglify": "^1.1.0",
+    "gulp-useref": "^1.1.1",
+    "jshint-stylish": "^1.0.1",
+    "nib": "^1.1.0"
+  }
+}

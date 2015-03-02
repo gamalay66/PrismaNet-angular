@@ -1,1 +1,11 @@
-{   "name": "PrismaNet-angular",   "version": "0.0.1",   "description": "Desarrollo de template para mail de PrismanNet",   "dependencies": {}}
+{
+  "name": "PrismaNet-angular",
+  "version": "0.0.1",
+  "description": "Desarrollo de template para mail de PrismanNet",
+  "dependencies": {
+    "angular": "~1.3.14",
+    "bootstrap": "~3.3.2",
+    "angular-route": "~1.3.14",
+    "angular-resource": "~1.3.14"
+  }
+}

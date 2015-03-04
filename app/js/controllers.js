@@ -9,16 +9,16 @@
    }
    function TopFacebookCtrl($scope, $http) {
      $http.get('data/topFacebook.json').success(function(data) {
-       $scope.topTwitter = data;
+       $scope.topFacebook = data;
      });
    }
    function TopTrendCtrl($scope, $http) {
      $http.get('data/topTrend.json').success(function(data) {
-       $scope.topTwitter = data;
+       $scope.topTrend = data;
      });
    }
-   angular.module('prisma.controllers').controller('TopTwitterCtrl');
-   angular.module('prisma.controllers').controller('TopFacebookCtrl');
-   angular.module('prisma.controllers').controller('TopTrendCtrl');
+   angular.module('prisma.controllers').controller('TopTwitterCtrl',TopTwitterCtrl);
+   angular.module('prisma.controllers').controller('TopFacebookCtrl',TopFacebookCtrl);
+   angular.module('prisma.controllers').controller('TopTrendCtrl',TopTrendCtrl);
 
 })();

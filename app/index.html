@@ -1,9 +1,10 @@
-<!doctype html> <html lang="es-ES"><head>     <!-- bower:css -->
+<!doctype html> <html lang="es-AR"><head>     <!-- bower:css -->
      <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
-     <!-- endbower -->     <!-- inject:css -->     <link rel="stylesheet" href="/css/main.css">     <!-- endinject -->   </head>   <body ng-app="prisma">     <div class="container-fluid">     <div class="row">       <aside class="col-sm-3">         <a ng-href="/new">Crear Entrada</a>       </aside>       <section class="col-sm-9" ng-view></section>     </div>    </div>     <!-- bower:js -->
+     <link rel="stylesheet" href="lib/fontawesome/css/font-awesome.css" />
+     <!-- endbower -->     <!-- inject:css -->     <link rel="stylesheet" href="/css/main.css">     <!-- endinject -->     <base href="/">   </head>   <body ng-app="prisma">     <div class="container-fluid">     <div class="row">       <aside class="col-sm-3">         <ul>           <li>             <a ng-href="/">Twitter</a>           </li>           <li>             <a ng-href="/facebook">facebook</a>           </li>           <li>             <a ng-href="/trend">trend</a>           </li>         </ul>       </aside>       <section class="col-sm-9" ng-view></section>     </div>    </div>     <!-- bower:js -->
      <script src="lib/jquery/dist/jquery.js"></script>
      <script src="lib/angular/angular.js"></script>
      <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
      <script src="lib/angular-route/angular-route.js"></script>
      <script src="lib/angular-resource/angular-resource.js"></script>
-     <!-- endbower -->     <!-- inject:js -->     <!-- endinject -->   </body> </html>
+     <!-- endbower -->     <!-- inject:js -->     <script src="/js/app.js"></script>     <script src="/js/controllers.js"></script>     <!-- endinject -->   </body> </html>

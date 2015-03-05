@@ -1,4 +1,14 @@
 body {
   background: #ffffff;
   color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.well-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+.well-center table tr td img {
+  width: 120px;
 }

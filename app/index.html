@@ -1,7 +1,7 @@
-<!doctype html> <html lang="es-AR"><head>     <!-- bower:css -->
+<!doctype html> <html lang="es-AR"><head>     <meta name="viewport" content="width=device-width, initial-scale=1">     <!-- bower:css -->
      <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
      <link rel="stylesheet" href="lib/fontawesome/css/font-awesome.css" />
-     <!-- endbower -->     <!-- inject:css -->     <link rel="stylesheet" href="/css/main.css">     <!-- endinject -->     <base href="/">   </head>   <body ng-app="prisma">     <div class="container-fluid">     <div class="row">       <aside class="col-sm-3">         <ul>           <li>             <a ng-href="/">Twitter</a>           </li>           <li>             <a ng-href="/facebook">facebook</a>           </li>           <li>             <a ng-href="/trend">trend</a>           </li>         </ul>       </aside>       <section class="col-sm-9" ng-view></section>     </div>    </div>     <!-- bower:js -->
+     <!-- endbower -->     <!-- inject:css -->     <link rel="stylesheet" href="/css/main.css">     <!-- endinject -->     <base href="/">   </head>   <body ng-app="prisma">        <div class="container">        <div class="well well-lg well-center" ng-view>        </div>        </div>     <!-- bower:js -->
      <script src="lib/jquery/dist/jquery.js"></script>
      <script src="lib/angular/angular.js"></script>
      <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
